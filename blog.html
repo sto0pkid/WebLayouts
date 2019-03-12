@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Software for Immortality - Blog</title>
+<meta charset="UTF-8">
+<!-- meta viewport? -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="top-bar">
+<header id="header-main">
+<h1 id="logo">Software for Immortality</h1>
+</header>
+<nav id="nav-main">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</nav>
+</div>
+<main>
+<article>
+<section>
+<header class="blog-header">
+<h1>Blog post</h1>
+<time>March 11th, 2019</time>
+</header>
+<p class="first-paragraph">
+</p>
+<p>
+<a href="https://github.com/koo5/univar/blob/master/pyin/kbdbg2graphviz3.py">A fairly simple script.</a> The pyin reasoner produces a proof trace with added debugging information, and can save this into a SPARQL-enabled triplestore. We have chosen Blazegraph to store the data through (https://github.com/blazegraph/blazegraph-python).
+</p>
+<p>
+The write performance was good, but as the database reached gigabyte ranges, the read performance was a problem. The issue was with rule descriptions. Even with caching, they first had to be traversed, which entailed many requests, and there was no obvious way to create more complex queries to reduce the traversal time. One solution would be to store this special data as a single blob of text, another would be to have one wildcard query return all the relevant triples, and processing the in the client. Neither solution was eventually implemented, as development has already moved on to a new version of the reasoner, with a different query debugging mechanism.
+</p>
+<p>
+Another takeaway concerns a seemingly fundamental issue with RDF, namely triples about triples. In RDF, every triple is part of a graph, also called context. Unlike in graph databases like Neo4j, it is not possible to talk about triples directly. This leads to the need to assign an unique context identifier to every triple, or build things in such a way that any triple can, in case we want to reference it, be singled out and assigned this unique context. We need a list of relevant contexts, or a rule expressible in SPARQL that tells the query engine which contexts should be considered.
+</p>
+<p>
+Our next RDF application will probably be built that way.
+</p>
+<p>
+The other part of this script was easy. The data was fetched in parallel, in batches, and fed into a converter that singled out each reasoning step and generated a graphviz file with the state of the reasoner at that time. The graphviz file was then layouted. Originally PNG images were generated, but we found it better to let the image viewing application (geeqie) handle this.
+</p>
+<section>
+<article>
+</main>
+<footer id="footer-main">
+</footer>
+</body>
+</html>

@@ -450,7 +450,7 @@
 
 
 body {
-background-color: #eeeedd;
+background-color: #ffffee;
 margin: 0px;
 font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
@@ -479,14 +479,6 @@ margin-left: 10px;
 }
 
 #logo{
-/*
-position: absolute;
-top:0px;
-left:0px;
-z-index:4;
-margin: 0px;
-padding: 10px;
-*/
 margin: 0px;
 font-family: "Roboto";
 font-weight: 300;
@@ -494,20 +486,6 @@ color: #00c0ff;
 }
 
 #nav-main {
-/*
-z-index:2;
-width:100%;
-background-color: rgba(11,11,22,.95);
-*/
-/* float:right;*/
-/*
-padding: 10px;
-position: sticky;
-top: 0;
-height:38px;
-display: flex;
-justify-content: space-between;
-*/
 flex: 1;
 flex-direction: row;
 margin-right:10px;
@@ -517,9 +495,10 @@ white-space:nowrap;
 main {
 z-index:1;
 min-height: 100%;
-background-color: #ffffee;
+/*background-color: #ffffee;*/
 max-width: 900px;
 margin: auto;
+padding-top:2em;
 padding-left: 2em;
 padding-right: 2em;
 }
@@ -576,6 +555,23 @@ margin-top: 0px;
 }
 .last-paragraph{
 margin-bottom: 0px;
+}
+
+.blog-header h1{
+font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+font-size: 35px;
+font-style: normal;
+font-weight: 300;
+color: #282828;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.blog-header time{
+font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+color: #858585;
 }
 
 #footer-main {
