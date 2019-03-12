@@ -15,7 +15,7 @@
 <ul>
 <li><a href="index.html">Home</a></li>
 <li><a href="about.html">About Us</a></li>
-<li><a href="blog.html">Blog</a></li>
+<li><a href="blog.html" class="nav-current">Blog</a></li>
 <li><a href="contact.html">Contact Us</a></li>
 </ul>
 </nav>
@@ -30,7 +30,7 @@
 <p class="first-paragraph">
 </p>
 <p>
-<a href="https://github.com/koo5/univar/blob/master/pyin/kbdbg2graphviz3.py">A fairly simple script.</a> The pyin reasoner produces a proof trace with added debugging information, and can save this into a SPARQL-enabled triplestore. We have chosen Blazegraph to store the data through (https://github.com/blazegraph/blazegraph-python).
+<a href="https://github.com/koo5/univar/blob/master/pyin/kbdbg2graphviz3.py">A fairly simple script.</a> The pyin reasoner produces a proof trace with added debugging information, and can save this into a SPARQL-enabled triplestore. We have chosen <a href="https://github.com/blazegraph/blazegraph-python">Blazegraph</a> to store the data through.
 </p>
 <p>
 The write performance was good, but as the database reached gigabyte ranges, the read performance was a problem. The issue was with rule descriptions. Even with caching, they first had to be traversed, which entailed many requests, and there was no obvious way to create more complex queries to reduce the traversal time. One solution would be to store this special data as a single blob of text, another would be to have one wildcard query return all the relevant triples, and processing the in the client. Neither solution was eventually implemented, as development has already moved on to a new version of the reasoner, with a different query debugging mechanism.

@@ -508,7 +508,7 @@ font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-ser
 font-size: 20.25px;
 font-style: normal;
 font-weight: 300;
-color: #585858;
+color: #282828;
 text-rendering: optimizelegibility;
 text-indent: 2em;
 line-height: 36px;
@@ -550,11 +550,31 @@ color: #00c0ff;
 color: #ffffff;
 }
 
+#nav-main ul li a.nav-current{
+border-bottom: 1px solid #ffffff;
+cursor: default;
+pointer-events: none;
+color: #ffffff;
+}
+
 .first-paragraph{
 margin-top: 0px;
 }
 .last-paragraph{
 margin-bottom: 0px;
+}
+
+#main-page h1{
+font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+font-size: 25px;
+font-style: normal;
+color: #282828;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+#main-page p{
+text-indent: 0px;
 }
 
 .blog-header h1{
