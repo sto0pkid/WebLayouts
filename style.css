@@ -447,12 +447,19 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-
+html{
+ height: 100%;
+ box-sizing: border-box;
+}
 
 body {
+box-sizing: border-box;
+position: relative;
 background-color: #ffffee;
 margin: 0px;
 font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+min-height: 100%;
+padding-bottom: 35px;
 }
 
 #top-bar {
@@ -551,7 +558,7 @@ color: #ffffff;
 }
 
 #nav-main ul li a.nav-current{
-border-bottom: 1px solid #ffffff;
+border-bottom: 2px solid #ffffff;
 cursor: default;
 pointer-events: none;
 color: #ffffff;
@@ -595,8 +602,16 @@ color: #858585;
 }
 
 #footer-main {
-background-color: rgba(11,11,22,.95);
+/* background-color: rgba(11,11,22,.95);*/
 height: 35px;
+
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+text-align: center;
+font-size: 8pt;
+font-color: #858585;
 }
 
 @media (max-width: 900px){
