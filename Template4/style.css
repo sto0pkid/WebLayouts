@@ -509,6 +509,10 @@ margin-top: 5px;
 text-indent: 0px;
 }
 
+#services p{
+text-indent: 0px;
+}
+
 .blog-header h1{
 font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 font-size: 35px;
