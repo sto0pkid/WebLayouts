@@ -239,10 +239,10 @@
   #circle1 {
    top: 37.6%;
    
-   /* background-color: rgb(250,50,53,.8);*/
-   /* background: #515A8A;*/
-
+   background: rgba(250,50,53,.8);
    background: -moz-radial-gradient(top left, transparent, #fb3235);
+   background: -webkit-radial-gradient(top left, transparent, #fb3235);
+   background: radial-gradient(top left, transparent, #fb3235);
    /*
    background: -webkit-radial-gradient(top left, #515A8A, #43D662);
    background: -moz-linear-gradient(top left, #000000, #fa3235);
@@ -251,13 +251,17 @@
   }
   #circle2 {
    top: 28.6%;
-   /* background-color: rgb(250,100,53,.5);*/
+   background: rgba(250,100,53,.5);*/
    background: -moz-radial-gradient(top left, transparent, #fb6435);
+   background: -webkit-radial-gradient(top left, transparent, #fb6435);
+   background: radial-gradient(top left, transparent, #fb6435);
   }
   #circle3 {
    top: 25%;
-   /*background-color: rgb(250,150,53,.3);*/
+   background: rgba(250,150,53,.3);*/
    background: -moz-radial-gradient(top left, transparent, #fb9635);
+   background: -webkit-radial-gradient(top left, transparent, #fb9635);
+   background: radial-gradient(top left, transparent, #fb9635);
   }
 
   .parallax__group.parallax__group-footer{
@@ -296,9 +300,9 @@
           <div id="navbar-collapse" class="navbar-collapse collapse">
             <a class="navbar-collapse-close" href="#navbar">Close menu</a>
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
+              <li id="nav-home" class="active"><a href="#">Home</a></li>
+              <li id="nav-about"><a href="#">About</a></li>
+              <li id="nav-contact"><a href="#">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
