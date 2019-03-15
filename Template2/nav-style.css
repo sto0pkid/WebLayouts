@@ -119,3 +119,18 @@ navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:
     background-color: #000;
     color: #fff;
 }
+
+.navbar-default-custom .collapse {
+ border: none;
+ border-image-width: 0;
+}
+
+#navbar-toggle-cbox:checked ~ .collapse {
+    display: block;
+    visibility: visible;
+}
+
+#navbar-toggle-cbox {
+  display:none
+}
+

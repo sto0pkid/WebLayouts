@@ -210,6 +210,7 @@
     font-size:100%;
     text-align:center;
     width: 100%;
+    text-size-adjust:none;
   }
 
 
@@ -277,7 +278,7 @@
 <body>
 
   <div class="demo__info">
-    <span>This demo is a combination of the pure CSS Bootstrap responsive navbar from ... with the <a href="https://keithclark.co.uk/articles/pure-css-parallax-websites/">pure CSS parallax scrolling</a> from Keith Clark, built and customized by <a href="#navbar">Software for Immortality</a></span>
+    <span>This demo is a combination of the <a href="https://jsfiddle.net/viralpatel/2w1owayn/?utm_source=website&utm_medium=embed&utm_campaign=2w1owayn">pure CSS Bootstrap responsive navbar</a> from ... with the <a href="https://keithclark.co.uk/articles/pure-css-parallax-websites/">pure CSS parallax scrolling</a> from Keith Clark, built and customized by <a href="#navbar">Software for Immortality</a></span>
     <!--
     <span>Pure CSS parallax scroll demo #3 by Keith Clark. Please read the <a href="https://keithclark.co.uk/articles/pure-css-parallax-websites/">blog post</a> for more information.</span>-->
   </div>
@@ -286,6 +287,7 @@
 
   <div class="parallax">
  <!-- Static navbar -->
+      <!--
       <nav class="navbar navbar-default navbar-default-custom full-width-container" id="navbar">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -304,9 +306,31 @@
               <li id="nav-about"><a href="#">About</a></li>
               <li id="nav-contact"><a href="#">Contact</a></li>
             </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
+          </div>
+        </div>
       </nav>
+      -->
+<nav class="navbar navbar-default navbar-fixed-top full-width-container navbar-default-custom">
+  <div class="container-fluid">
+    <input type="checkbox" id="navbar-toggle-cbox">
+    <div class="navbar-header">
+      <label for="navbar-toggle-cbox" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </label>
+      <a class="navbar-brand" href="#">Project name</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li id="nav-home" class="active"><a href="#">Home</a></li>
+        <li id="nav-about"><a href="#about">About</a></li>
+      </ul>
+    </div>
+    <!--/.nav-collapse -->
+  </div>
+</nav>
 
     <div id="group1" class="parallax__group">
       <div class="parallax__layer parallax__layer--base">
