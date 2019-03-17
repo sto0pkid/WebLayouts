@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{228:function(a){a.exports={data:{redditPost:{title:"Hobbles had a great day at school yesterday!",content:"",img:"https://preview.redd.it/mzwtj5aagjm21.jpg?auto=webp&s=442431feb5ffa454d60a173cfaab4c4602ecb046"}}}}}]);

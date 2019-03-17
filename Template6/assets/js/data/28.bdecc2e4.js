@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[32],{244:function(e){e.exports={data:{redditPost:{title:"Nothing will stop her from being tucked in bed 😍",content:"",img:"https://external-preview.redd.it/CVbnpQGdVDhD1-tz8X8lVqG86XMhLQmOJ88jjSeXq_M.png?format=pjpg&auto=webp&s=6a4dd88c68a65e85502a4d7ab7ed4df918599c79"}}}}}]);

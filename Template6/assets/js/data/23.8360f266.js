@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[27],{239:function(e){e.exports={data:{redditPost:{title:"You wouldn’t believe me even if I told you...those vets are evil",content:"",img:"https://external-preview.redd.it/aueb47WplL22Kn3f5-QCCDBavMxet3wFRFoBtDm6zaY.png?format=pjpg&auto=webp&s=404303e7025a4f5afc548a23f8bc511daec6dd4e"}}}}}]);

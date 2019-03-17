@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[37],{222:function(e){e.exports={data:{redditPost:{title:"Little hedgehog camper 🦔",content:"",img:"https://preview.redd.it/42k8mi9fuim21.jpg?auto=webp&s=7ce57e793d3de0d031da9381abd9e98a3eca5df3"}}}}}]);

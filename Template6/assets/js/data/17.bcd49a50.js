@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{233:function(e){e.exports={data:{redditPost:{title:"Onward duck! We ride off into the sunset!",content:"",img:"https://external-preview.redd.it/q_KonbXFaOUXz_nn5DOZooKahiKwnY371cF_yXNvEgY.png?format=pjpg&auto=webp&s=6a6c51765f6ad19c75c8b22b048c179e214efdc6"}}}}}]);

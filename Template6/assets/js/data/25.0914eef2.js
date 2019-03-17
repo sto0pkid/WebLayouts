@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[29],{241:function(e){e.exports={data:{redditPost:{title:"my happy cow, ready for dinner and a walk",content:"",img:"https://external-preview.redd.it/2a25sleGEywOuPCFCe-qvxQvXzIlaFc6lUtWU3r2G7Y.png?format=pjpg&auto=webp&s=9bfcf997874f681134fd72074970a3c30ec92c9f"}}}}}]);

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{226:function(e){e.exports={data:{redditPost:{title:"Such a good pupper",content:"",img:"https://external-preview.redd.it/0hJ8u0dDEDLAglwFIZ1hL4xoqL-2PwvTYNXPHhlWeEE.png?format=pjpg&auto=webp&s=f13ce9e671fb2ea5e464c888db5cbb782bde3525"}}}}}]);

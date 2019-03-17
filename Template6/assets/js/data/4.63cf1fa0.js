@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[35],{220:function(e){e.exports={data:{redditPost:{title:"/r/cromch: /r/Aww Subreddit of the Week!",content:"",img:"https://external-preview.redd.it/X3dq7BwWSNeUHhYVAwg9EWZnzdW0rDaEwG8X76Th8PI.jpg?auto=webp&s=41609c39ac55f81573d212eaf4cf408bb74a3170"}}}}}]);

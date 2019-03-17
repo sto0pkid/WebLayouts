@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[31],{243:function(e){e.exports={data:{redditPost:{title:"It’s impossible to be sad when I see her little face",content:"",img:"https://preview.redd.it/5zidqo3xflm21.jpg?auto=webp&s=63d0481dcd4849315ab77301194bff5e954ffc75"}}}}}]);

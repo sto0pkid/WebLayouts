@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[36],{221:function(t){t.exports={data:{redditPost:{title:"butterpup",content:"",img:"https://preview.redd.it/lc6q628kpim21.jpg?auto=webp&s=1878a85e74c59efcd45d7adb270178e8f06c6a2d"}}}}}]);

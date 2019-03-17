@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[16],{229:function(e){e.exports={data:{redditPost:{title:"The cat tree is starting to blossom nicely.",content:"",img:"https://external-preview.redd.it/BLp7_8coNECObZ3fxd_5wpjcaUl0L_NTbZYGfsZvO8Y.jpg?auto=webp&s=b7af3392d411ccce48fd50979ea607e267f834c6"}}}}}]);

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[17],{230:function(e){e.exports={data:{redditPost:{title:"Name a more iconic trio. I'll wait.",content:"",img:"https://preview.redd.it/sjfsez0oqjm21.jpg?auto=webp&s=106e7180d0e4ffceb944ed267d20e18d871bc46c"}}}}}]);

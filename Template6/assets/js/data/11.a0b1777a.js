@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{227:function(e){e.exports={data:{redditPost:{title:"all smiles here",content:"",img:"https://preview.redd.it/skw66r0qcjm21.jpg?auto=webp&s=87f2f93fd5aeef16ce4e3e48a6868270a7575575"}}}}}]);

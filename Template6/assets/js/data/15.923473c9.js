@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[18],{231:function(t){t.exports={data:{redditPost:{title:"His first swimming lesson",content:"",img:"https://external-preview.redd.it/WmwmN9XdF4zsjQoYwhfLC-mluwmm2frAAP4crmQTGsQ.png?format=pjpg&auto=webp&s=b1684629bd44e61e70dd227370ca3a1b7f7bd88b"}}}}}]);

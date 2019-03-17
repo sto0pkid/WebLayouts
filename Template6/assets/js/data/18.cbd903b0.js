@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[21],{234:function(e){e.exports={data:{redditPost:{title:"4mo cutie lookin at his Mom",content:"",img:"https://external-preview.redd.it/KrSysGE9FVrOKGjCI7ugxpwveRnVEYcHxbTGyId-PPE.jpg?auto=webp&s=1a60d12f2b782dc53204caf01e0145233e837b32"}}}}}]);

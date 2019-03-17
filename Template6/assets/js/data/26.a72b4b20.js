@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[30],{242:function(t){t.exports={data:{redditPost:{title:"A local brewery partnered with a pet adoption organization and all it took was 1 beer for me to adopt this sweet guy. Reddit, meet Milo.",content:"",img:"https://preview.redd.it/it1rqdqlblm21.jpg?auto=webp&s=041ade15c64b0e959ae7ab4d9dd4dd33f98a11b6"}}}}}]);

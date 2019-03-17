@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[24],{236:function(e){e.exports={data:{redditPost:{title:"I want you to meet Kali. Old dogs are as cute as puppies.",content:"",img:"https://preview.redd.it/tt90m0rpqkm21.jpg?auto=webp&s=1e17ac32a150e2c77edbe459242bb46c693eba11"}}}}}]);

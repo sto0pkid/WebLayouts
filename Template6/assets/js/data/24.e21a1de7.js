@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[28],{240:function(t){t.exports={data:{redditPost:{title:"Blep.",content:"",img:"https://preview.redd.it/djvjuacb2lm21.jpg?auto=webp&s=aa011b1ae8b34804f5db366d13db7c7315cb0a4f"}}}}}]);

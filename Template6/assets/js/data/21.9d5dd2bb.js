@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[25],{237:function(t){t.exports={data:{redditPost:{title:"Little girl reads to the cat :)",content:"",img:"https://external-preview.redd.it/N-Kl5r9nVr9BSHPsG9lhscl539N2k-63XF-PNx2GnGY.png?format=pjpg&auto=webp&s=2f81675d26a96020b74aad0a5eaf0495677d6801"}}}}}]);

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[33],{245:function(t){t.exports={data:{redditPost:{title:"For those that sort my new, here’s my little angel Koda",content:"",img:"https://preview.redd.it/yl7fr24jmlm21.jpg?auto=webp&s=a91d8cca6dffe554221f309504fa0b7de43022a6"}}}}}]);

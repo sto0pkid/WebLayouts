@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[26],{238:function(t){t.exports={data:{redditPost:{title:"6 Little Angels",content:"",img:"https://preview.redd.it/7w5kc26gvkm21.jpg?auto=webp&s=e8f2163df1ff9d4cbf6d5b2b124dc0f641055f73"}}}}}]);

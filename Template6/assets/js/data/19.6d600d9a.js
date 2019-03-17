@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[22],{235:function(e){e.exports={data:{redditPost:{title:"Baby Foxes",content:"",img:"https://preview.redd.it/epeli6mjkkm21.jpg?auto=webp&s=70c86446744b68e0ca2fbc1432ff0087cd725e35"}}}}}]);

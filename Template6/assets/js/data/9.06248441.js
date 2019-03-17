@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[40],{225:function(t){t.exports={data:{redditPost:{title:"Hands up!",content:"",img:"https://preview.redd.it/qjzr40w82jm21.jpg?auto=webp&s=147e8171a6347575f1a8530acb88b6bd2498d19b"}}}}}]);
