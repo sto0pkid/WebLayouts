@@ -1,0 +1,250 @@
+/*
+ * This code demonstrates how to implement a basic flexbox sticky-footer.
+ *
+ * Issues: note how the overflow in the header causes the footer not to expand all the way
+ */
+
+
+/*
+ *
+ * NORMALIZATION
+ *
+ */
+
+
+/* remove the margin & padding defaults for all elements, starting from scratch */
+* {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ text-decoration: none;
+}
+
+a {
+ text-decoration: none;
+ color: #000;
+}
+
+
+
+
+/*
+ *
+ * LAYOUT
+ *
+ */
+html {
+ /*
+  * if you remove this setting, then long non-wrapping content
+  * that horizontally overflows the body will overflow its containers
+  *
+  */
+ display: flex;
+ min-height: 100%;
+ /*
+  * if you use neither height nor min-height, the body will not
+  * expand vertically to fill the screen for large displays.
+  */
+ /*
+  * if you use height: 100% at all, the body will fit to the viewing 
+  * frame but will not include vertical overflow.
+  */
+ /*height: 100%;*/
+}
+
+body {
+ /* 
+  * if you remove this setting then the body does not expand 
+  * horizontally to fill the entire screen for large displays
+  *
+  */
+ flex-grow: 1;
+ display: flex;
+ flex-direction: column;
+ min-height: 100%;
+ /*
+  * if you use height instead of min-height, the body will
+  * be cut off vertically (firefox)
+  *
+  */
+ /* height: 100%; */
+}
+
+header {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+
+nav ul {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: right;
+ list-style: none;
+}
+
+main {
+ flex: 1;
+ display: flex;
+ flex-direction: column;
+ max-width: 30em;
+ margin: auto;
+}
+
+
+/*
+ *
+ * STYLING
+ *
+ */
+/*
+html {
+ background-color: orange;
+}
+
+body {
+ background-color: purple;
+}
+*/
+
+header {
+ background-color: #000;
+ color: #fff;
+}
+
+
+
+
+.logo {
+ padding: 1em;
+ border-bottom: 0.1em solid black;
+}
+
+.logo strong {
+ display: flex;
+ flex-direction: column;
+}
+
+#logo-project {
+ margin: 0 auto;
+}
+#logo-name {
+ margin: 0 auto;
+}
+
+nav {
+}
+
+nav ul {
+ height: 100%;
+}
+
+nav ul a {
+ display: flex;
+ flex-direction: column;
+ flex-basis: 15%;
+ flex-grow:1;
+}
+
+/*
+ *
+ * this makes the <li>'s fill up the <a>'s vertically
+ *
+ */
+nav ul a li{
+ flex-grow: 1;
+ display: flex;
+}
+
+/*
+ * Trying this without doing `nav ul a li { display : flex }` makes it so
+ * the spans don't vertically align in the middle
+ *
+ */
+nav ul a li span{
+ margin: auto;
+ padding: 0 0.5em;
+}
+
+
+
+.navlink-blue {
+ background-color: darkblue;
+ border-bottom: 0.1em solid darkblue;
+}
+
+.navlink-blue:hover {
+ border-bottom: 0.1em solid blue;
+}
+
+.navlink-green {
+ background-color: darkgreen;
+ border-bottom: 0.1em solid darkgreen;
+}
+
+.navlink-green:hover {
+ border-bottom: 0.1em solid green;
+}
+
+.navlink-yellow {
+ background-color: orange;
+ border-bottom: 0.1em solid orange;
+}
+
+.navlink-yellow:hover {
+ border-bottom: 0.1em solid yellow;
+}
+
+.navlink-red {
+ background-color: darkred;
+ border-bottom: 0.1em solid darkred;
+}
+
+.navlink-red:hover {
+ border-bottom: 0.1em solid red;
+}
+
+.header-expander {
+ border-bottom: 0.1em solid black;
+}
+
+footer {
+ background-color: #000;
+ color: #fff;
+ text-align: center;
+}
+
+/*
+ *
+ * downsizing to a 2 column menu
+ *
+ */
+@media only screen and (max-width: 450px){
+ nav ul a {
+  flex-basis: 50%;
+ }
+}
+
+/*
+ *
+ * downsizing to a 1 column menu
+ *
+ */
+@media only screen and (max-width: 330px){
+ nav ul a {
+  width: 100%;
+  flex-basis: 100%;
+ }
+}
+
+/*
+ *
+ * downsizing to a 1 column layout
+ *
+ */
+
+@media only screen and (max-width: 210px){
+ header {
+  flex-wrap: wrap;
+ }
+}

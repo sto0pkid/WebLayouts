@@ -1,0 +1,25 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+html {
+ background-color: red;
+ height: 100%;
+}
+
+body {
+ background-color: blue;
+ min-height: 100%;
+ position: relative;
+}
+
+main {
+ padding-bottom: 1em;
+}
+
+footer {
+ background-color: green;
+ position: absolute;
+ bottom: 0;
+}

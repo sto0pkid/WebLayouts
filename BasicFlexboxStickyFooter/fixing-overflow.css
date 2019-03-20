@@ -16,21 +16,46 @@
 
 /* why do we need this directive */
 html {
+ /*
+  * if you remove this setting, then long non-wrapping content
+  * that horizontally overflows the body will overflow its containers
+  *
+  */
  display: inline-flex;
- height: 100%;
+ min-height: 100%;
+ /*
+  * if you use neither height nor min-height, the body will not
+  * expand vertically to fill the screen for large displays.
+  */
+ /*
+  * if you use height: 100% at all, the body will fit to the viewing 
+  * frame but will not include vertical overflow.
+  */
+ /*height: 100%;*/
+
  background-color: orange;
 }
 
 body {
+ /* 
+  * if you remove this setting then the body does not expand 
+  * horizontally to fill the entire screen for large displays
+  *
+  */
  flex-grow: 1;
  display: flex;
  flex-direction: column;
  min-height: 100%;
+ /*
+  * if you use height instead of min-height, the body will
+  * be cut off vertically (firefox)
+  *
+  */
+ /* height: 100%; */
  background-color: purple;
 }
 
 header {
- display: flex;
  background-color: blue;
 }
 
@@ -44,6 +69,5 @@ main {
 }
 
 footer {
- display: flex;
  background-color: green;
 }
