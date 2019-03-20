@@ -1,0 +1,49 @@
+/*
+ * This code demonstrates how to implement a basic flexbox sticky-footer.
+ *
+ * Issues: note how the overflow in the header causes the footer not to expand all the way
+ */
+
+
+
+
+/* remove the margin & padding defaults for all elements, starting from scratch */
+* {
+ margin: 0;
+ padding: 0;
+ border: 0;
+}
+
+/* why do we need this directive */
+html {
+ display: inline-flex;
+ height: 100%;
+ background-color: orange;
+}
+
+body {
+ flex-grow: 1;
+ display: flex;
+ flex-direction: column;
+ min-height: 100%;
+ background-color: purple;
+}
+
+header {
+ display: flex;
+ background-color: blue;
+}
+
+main {
+ flex: 1;
+ display: flex;
+ flex-direction: column;
+ background-color: red;
+ max-width: 40em;
+ margin: auto;
+}
+
+footer {
+ display: flex;
+ background-color: green;
+}
